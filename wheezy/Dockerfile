@@ -64,7 +64,7 @@ RUN chown -R www-data:www-data /var/www/wordpress
 #
 # Open ports
 #
-EXPOSE 80
+EXPOSE 80 3306
 
 #
 # Supervisor
